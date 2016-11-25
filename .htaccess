@@ -1,0 +1,5 @@
+RewriteEngine on
+AuthType Basic
+AuthName "opsedit"
+AuthUserFile C:/Web/opsedit/.htpasswd
+require valid-user
